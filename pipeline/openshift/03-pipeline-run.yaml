@@ -11,10 +11,10 @@ spec:
       claimName: shared-task-storage
   params:
   - name: repo-url
-    value: https://github.com/gskumar1010/TA-klp-demo.git
+    value: https://github.com/jnovotni/TA-klp-demo.git
   - name: branch-name
     value: master
   - name: repo-dockerfile
     value: Dockerfile
   - name: image-url
-    value: image-registry.openshift-image-registry.svc:5000/myproject/defaultapplication:latest
+    value: image-registry.openshift-image-registry.svc:5000/websphere-pipeline/defaultapplication:latest
